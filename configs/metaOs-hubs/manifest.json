@@ -1,0 +1,37 @@
+{
+    "$schema": "https://raw.githubusercontent.com/OfficeDev/microsoft-teams-app-schema/preview/DevPreview/MicrosoftTeams.schema.json",
+    "manifestVersion": "m365DevPreview",
+    "version": "1.0.0",
+    "id": "d2d11ff1-cc7c-8d88-1a21-a9a694a1a6a5",
+    "packageName": "com.microsoft.teams.MetaOSTranslation",
+    "developer": {
+        "name": "Microsoft",
+        "websiteUrl": "https://microsoft.com",
+        "privacyUrl": "https://privacy.microsoft.com/",
+        "termsOfUseUrl": "https://support.microsoft.com/"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "MetaOS Mario",
+        "full": "MetaOS Mario"
+    },
+    "description": {
+        "short": "MetaOS Mario",
+        "full": "MetaOS Mario"
+    },
+    "accentColor": "#FFFFFF",
+    "staticTabs": [
+        {
+            "entityId": "MetaOS Mario",
+            "name": "MetaOS Mario",
+            "contentUrl": "https://supermario.z13.web.core.windows.net/",
+            "websiteUrl": "https://supermario.z13.web.core.windows.net/",
+            "scopes": ["personal"]
+        }
+    ],
+    "permissions": ["identity", "messageTeamMembers"],
+    "validDomains": ["*"]
+}
